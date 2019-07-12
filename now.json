@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "name": "lumochift",
+    "name": "dev",
     "builds": [
       {
         "src": "build.sh",
