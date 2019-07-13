@@ -3,9 +3,6 @@
     "name": "dev",
     "builds": [
       {
-        "env":{
-            "HUGO_GOOGLE_ANALYTICS_ID": "UA-45950719-1"
-        },
         "src": "build.sh",
         "use": "@now/static-build",
         "config": { "distDir": "public" }
