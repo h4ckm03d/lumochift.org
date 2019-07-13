@@ -1,8 +1,9 @@
 baseURL = "https://lumochift.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Code flow in you"
 themesDir = "themes"
 theme = "whisper"
+googleAnalytics = "UA-45950719-1"
 
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
@@ -18,18 +19,35 @@ pygmentsUseClasses = true
     url = "/posts/"
     weight = 2
 
+[[menu.main]]
+    name = "Tags"
+    weight = 3
+    identifier = "tags"
+    url = "/tags/"
+
+[[menu.main]]
+    name = "Categories"
+    weight = 4
+    identifier = "categories"
+    url = "/categories/"
+
+[[menu.main]]
+    name = "About"
+    weight = 5
+    identifier = "about"
+    url = "/about"
+
 [params]
   google_analytics_id=""
-  homepage_button_link = '/docs'
-  homepage_button_text = 'Read The Docs'
-  homepage_intro = 'Whisper is a documentation theme built with Hugo. The design and functionality is intentionally minimal.'
-  homepage_image = '/images/terminal.gif'
+  homepage_button_link = 'https://www.linkedin.com/in/moch-lutfi/'
+  homepage_button_text = 'View My Linkedin'
+  homepage_intro = 'Welcome to the Moch. Lutfi blog. Have a look around. Maybe even eat some ramen.'
 
   [params.homepage_meta_tags]
-    meta_description = "Hugo Whisper is a documentation theme built with Hugo."
-    meta_og_title = "Hugo Whisper Theme"
+    meta_description = "Tech blog of Moch. Lutfi. Focus on bleeding edge technology, programming, and golang."
+    meta_og_title = "Code flow in you"
     meta_og_type = "website"
-    meta_og_url = "https://hugo-whisper.netlify.com"
+    meta_og_url = "https://lumochift.org"
     meta_og_image = "https://raw.githubusercontent.com/JugglerX/hugo-whisper-theme/master/images/tn.png"
     meta_og_description = "Hugo Whisper is a documentation theme built with Hugo."
     meta_twitter_card = "summary"

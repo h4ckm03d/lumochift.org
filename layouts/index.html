@@ -35,6 +35,19 @@
     </div>
   </div>
 </div>
+<div class="strip">
+    <div class="container pt-4 pb-4">
+        <div class="row justify-content-center">
+        <div class="col-12 col-md-10">
+            {{ range .Pages }}
+                <li>
+                    <a href="{{.Permalink}}">{{.Date.Format "2006-01-02"}} | {{.Title}}</a>
+                </li>
+            {{ end }}
+        </div>
+        </div>
+    </div>
+</div>
 
 {{ if .Site.Params.homepage_image }}
 <div class="strip">
