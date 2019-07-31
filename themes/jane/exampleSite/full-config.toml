@@ -1,5 +1,5 @@
-baseURL = "https://lumochift.org/"
-title = "Moch. Lutfi Tech blog"
+baseURL = "http://localhost:1313/"
+title = "Jane - A super concise theme for Hugo"
 enableRobotsTXT = true
 enableEmoji = true
 theme = "jane"
@@ -7,10 +7,10 @@ theme = "jane"
 hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
 paginate = 3              # Number of articles displayed on the homepage # 首页每页显示的文章数
 rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输出数量
-disqusShortname = "codeflowinyou"      # disqus_shortname
-googleAnalytics = "UA-45950719-1"      # UA-XXXXXXXX-X
+disqusShortname = ""      # disqus_shortname
+googleAnalytics = ""      # UA-XXXXXXXX-X
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
-# enableGitInfo = true      # use git commit log to generate lastmod record # 可根据 Git 中的提交生成最近更新记录。
+enableGitInfo = true      # use git commit log to generate lastmod record # 可根据 Git 中的提交生成最近更新记录。
 # uglyURLs = true         # more info: https://gohugo.io/content-management/urls/#ugly-urls
 
 # Highlight options.
@@ -21,10 +21,10 @@ PygmentsCodefencesGuessSyntax = true
 PygmentsOptions = "linenos=table"
 
 # Enable author pages
-[taxonomies]
-  author = "author"
-  tag = "tags"
-  category = "categories"
+#[taxonomies]
+#  author = "author"
+#  tag = "tags"
+#  category = "categories"
 
 # language support # en / zh-cn / other... translations present in i18n/
 defaultContentLanguage = "en"           # Default language to use
@@ -32,7 +32,7 @@ defaultContentLanguage = "en"           # Default language to use
   languageCode = "en"
 
 [author]                  # essential                     # 必需
-  name = "lumochift"
+  name = "xianmin"
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
@@ -48,7 +48,7 @@ defaultContentLanguage = "en"           # Default language to use
   name = "Archives"
   weight = 20
   identifier = "archives"
-  url = "/posts/"
+  url = "/post/"
 [[menu.main]]
   name = "Tags"
   weight = 30
@@ -59,18 +59,22 @@ defaultContentLanguage = "en"           # Default language to use
   weight = 40
   identifier = "categories"
   url = "/categories/"
+[[menu.main]]
+  name = "external-link"
+  weight = 50
+  url = "https://gohugo.io"
 
 
 [params]
   debug = false             # If true, load `eruda.min.js`. See https://github.com/liriliri/eruda
-  since = "2014"            # Site creation time          # 站点建立时间
+  since = "2017"            # Site creation time          # 站点建立时间
   homeFullContent = false   # if false, show post summaries on home page. Othewise show full content.
   rssFullContent = true     # if false, Rss feed instead of the summary
 
   # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-  logoTitle = "Lumochift"        # default: the title value    # 默认值: 上面设置的title值
-  keywords = ["blog", "tech","golang", "programming"]
-  description = "Moch Lutfi tech blog"
+  logoTitle = "Jane"        # default: the title value    # 默认值: 上面设置的title值
+  keywords = ["Hugo", "theme","jane"]
+  description = "Hugo theme jane example site."
 
   # paginate of archives, tags and categories             # 归档、标签、分类每页显示的文章数目，建议修改为一个较大的值
   archive-paginate = 3
@@ -111,6 +115,9 @@ defaultContentLanguage = "en"           # Default language to use
   customCSS = []            # if ['custom.css'], load '/static/css/custom.css' file
   customJS = []             # if ['custom.js'], load '/static/js/custom.js' file
 
+  # enable 'fork me on github', see https://blog.github.com/2008-12-19-github-ribbons/
+  # forkMeOnGithub = "https://github.com/xianmin/hugo-theme-jane"
+
   # add custom info on the footer.   # 添加备案信息
   # customFooter = "京ICP备10000000号-1"
 
@@ -130,24 +137,24 @@ defaultContentLanguage = "en"           # Default language to use
     repo = "xianmin/comments-for-hugo-theme-jane"    # The repo to store comments
     issueTerm = "pathname"
 
-#  [params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
-#    owner = ""              # Your GitHub ID
-#    repo = ""               # The repo to store comments
-#    clientId = ""           # Your client ID
-#    clientSecret = ""       # Your client secret
+  [params.gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
+    owner = ""              # Your GitHub ID
+    repo = ""               # The repo to store comments
+    clientId = ""           # Your client ID
+    clientSecret = ""       # Your client secret
 
   [params.livere]          	#LiveRe comment. see https://www.livere.com/
 	  uid = ""
 
   [params.search.google]    # google custom search, see https://cse.google.com
     enable = false
-    id = "007190553497163904262:gyzuoabviqs"
+    id = "002186711602136249422:q1gkomof_em"
     title = "Search"
 
-#  [params.reward]                                         # 文章打赏
-#    enable = false
-#    wechat = "/path/to/your/wechat-qr-code.png"           # 微信二维码
-#    alipay = "/path/to/your/alipay-qr-code.png"           # 支付宝二维码
+  [params.reward]                                         # 文章打赏
+    enable = false
+    wechat = "/path/to/your/wechat-qr-code.png"           # 微信二维码
+    alipay = "/path/to/your/alipay-qr-code.png"           # 支付宝二维码
 
   [params.counter.busuanzi]  # a Chinese visitor counter  # 不蒜子计数器
     enable = false
@@ -162,14 +169,28 @@ defaultContentLanguage = "en"           # Default language to use
 
   # use public git repo url to link lastmod git commit, enableGitInfo should be true.
   # 指定 git 仓库地址，可以生成指向最近更新的 git commit 的链接，需要将 enableGitInfo 设置成 true.
-  #[params.gitInfo]
-  #  gitRepo = "https://github.com/h4ckm03d/lumochift.org"
-  #  showCommitMessage = true
+  [params.gitInfo]
+    gitRepo = "https://github.com/xianmin/hugo-theme-jane"
+    showCommitMessage = true
 
   [params.social]                                         # 社交链接
-    c-twitter = "https://twitter.com/kaptenupi"
-    e-linkedin = "https://www.linkedin.com/in/moch-lutfi/"
-    g-github = "https://github.com/h4ckm03d"
+    a-email = "mailto:your@email.com"
+    b-stack-overflow = "http://localhost:1313"
+    c-twitter = "http://localhost:1313"
+    d-facebook = "http://localhost:1313"
+    e-linkedin = "http://localhost:1313"
+    f-google = "http://localhost:1313"
+    g-github = "http://localhost:1313"
+    h-weibo = "http://localhost:1313"
+    i-zhihu = "http://localhost:1313"
+    j-douban = "http://localhost:1313"
+    k-pocket = "http://localhost:1313"
+    l-tumblr = "http://localhost:1313"
+    m-instagram = "http://localhost:1313"
+    n-gitlab = "http://localhost:1313"
+    o-goodreads = "http://localhost:1313"
+    p-coding = "http://localhost:1313"
+    q-bilibili = "http://localhost:1313"
 
 # jsonfeed support
 # more information: https://github.com/xianmin/hugo-theme-jane/issues/23

@@ -1,6 +1,0 @@
-[submodule "themes/whisper"]
-	path = themes/whisper
-	url = https://github.com/jugglerx/hugo-whisper-theme.git
-[submodule "themes/jane"]
-	path = themes/jane
-	url = https://github.com/xianmin/hugo-theme-jane.git
