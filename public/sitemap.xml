@@ -1,0 +1,263 @@
+<?xml-stylesheet type="text/xsl" href="https://lumochift.org/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://lumochift.org/author/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/tags/bahasa-indonesia/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/categories/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/categories/golang101/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/posts/golang-benchmark/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/author/moch.-lutfi/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/posts/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/tags/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/tags/benchmark/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/tags/golang/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/tags/golang101/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/tags/programming/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/posts/tips-trik-unit-test-golang/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/tags/tips/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/tags/unit-test/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/posts/golang-test-coverage/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/posts/golang-om-telolet-om-server/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/posts/golang-unit-test/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/posts/struct/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/tags/struct/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/posts/pointer/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/posts/hello-world/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/tags/syntax-highlighting/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/tags/preview/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/categories/programming/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/offline/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/license/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/posts/computer-science-for-humanities/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/tags/computer-science/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/categories/computer-science/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/tags/humanities/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/posts/am-i-lost/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/tags/my-life/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/categories/personal/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/tags/story/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/posts/async-concept/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/tags/async/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/tags/concept/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/about/</loc>
+    <lastmod>2019-07-13T16:19:43+07:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://lumochift.org/en/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

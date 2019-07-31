@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tips on Moch. Lutfi Tech blog</title>
+    <link>https://lumochift.org/tags/tips/</link>
+    <description>Recent content in tips on Moch. Lutfi Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Feb 2018 21:54:00 +0700</lastBuildDate>
+    
+	<atom:link href="https://lumochift.org/tags/tips/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Tips dan trik unit test di Go</title>
+      <link>https://lumochift.org/posts/tips-trik-unit-test-golang/</link>
+      <pubDate>Thu, 01 Feb 2018 21:54:00 +0700</pubDate>
+      
+      <guid>https://lumochift.org/posts/tips-trik-unit-test-golang/</guid>
+      <description>Unit Test memang tidak bisa dilepaskan dari proses pengembangan software. Namun seringkali dalam pembuatan Unit Test di Go terjadi banyak repetisi yang tidak perlu dan Unit Test yang tidak dikelola dengan baik. Salah satu contoh kasus yang paling banyak ditemui dalam pembuatan Unit Test yaitu tidak dipisahkannya logic dan data sehingga ketika penambahan data test terdapat penambahan pula logic.
+Contoh Kode Sebelum memulai lebih lanjut berikut adalah contoh kode untuk membantu memahami tulisan ini.</description>
+    </item>
+    
+  </channel>
+</rss>

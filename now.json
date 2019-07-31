@@ -3,14 +3,14 @@
     "name": "dev",
     "builds": [
       {
-        "src": "build.sh",
-        "use": "@now/static-build",
-        "config": { "distDir": "public" }
+        "use": "@now/static",
+        "src": "public/**"
       },
       { "src": "_internal/go/index.go", "use": "@now/go" }
     ],
     "routes": [
-        { "src": "/go/(?<name>[^/]+)", "dest": "/_internal/go/index.go?name=$name" }
+        { "src": "/go/(?<name>[^/]+)", "dest": "/_internal/go/index.go?name=$name" },
+        {"src": "/(.*)", "dest": "public/$1"}
     ],
     "public": true
   }

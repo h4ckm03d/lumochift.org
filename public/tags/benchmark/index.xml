@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>benchmark on Moch. Lutfi Tech blog</title>
+    <link>https://lumochift.org/tags/benchmark/</link>
+    <description>Recent content in benchmark on Moch. Lutfi Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 02 Sep 2018 08:00:00 +0700</lastBuildDate>
+    
+	<atom:link href="https://lumochift.org/tags/benchmark/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Membuat Benchmark di Golang</title>
+      <link>https://lumochift.org/posts/golang-benchmark/</link>
+      <pubDate>Sun, 02 Sep 2018 08:00:00 +0700</pubDate>
+      
+      <guid>https://lumochift.org/posts/golang-benchmark/</guid>
+      <description>Ketika membuat suatu aplikasi tidak dipungkiri salah satu faktor yang sangat penting yaitu kecepatan. Baik kecepatan load data, kecepatan dalam menjalankan suatu perintah ataupun ketika membuka dan menutup aplikasi. Tentunya perlu instrument untuk mengetahui seberapa cepat kode kita, dalam hal ini perasaan tidak dapat digunakan sebagai tolak ukur. Menariknya pada bahasa pemrograman golang sudah ada library standar untuk mengukur seberapa cepat perintah dalam kode yang sering disebut benchmarking.
+Kali ini contoh kasus untuk komparasi performa saya menggunakan 2 sorting sederhana yaitu bubble sort dan shell sort.</description>
+    </item>
+    
+  </channel>
+</rss>

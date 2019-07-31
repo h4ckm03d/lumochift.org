@@ -2,6 +2,7 @@ package handler
 
 import (
 	"html/template"
+	"log"
 	"net/http"
 )
 
@@ -20,16 +21,19 @@ const tplHtml = `
 `
 
 var tpl, _ = template.New("Package").Parse(tplHtml)
-var repos = []string{"golang-playground", "goworker"}
 
 func has(name string) bool {
-	for i := range repos {
-		if repos[i] == name {
-			return true
-		}
+	resp, err := http.Get("https://api.github.com/repos/h4ckm03d/" + name)
+	if err != nil {
+		log.Println(err)
+		return false
 	}
 
-	return false
+	if resp.StatusCode != 200 {
+		return false
+	}
+
+	return true
 }
 
 func Handler(w http.ResponseWriter, r *http.Request) {
@@ -45,10 +49,10 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		Repo         string
 		GodocURL     string
 	}{
-		CanonicalURL: "dev.lumochift.org/go/" + name,
+		CanonicalURL: "lumochift.org/go/" + name,
 		Repo:         "github.com/h4ckm03d/" + name,
 		GodocURL:     "https://godoc.org/lumochift.org/go/" + name,
 	}
 
-	tpl.Execute(w, data)
+	_ = tpl.Execute(w, data)
 }

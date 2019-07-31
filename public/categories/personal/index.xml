@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>personal on Moch. Lutfi Tech blog</title>
+    <link>https://lumochift.org/categories/personal/</link>
+    <description>Recent content in personal on Moch. Lutfi Tech blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 24 Nov 2014 20:02:21 +0700</lastBuildDate>
+    
+	<atom:link href="https://lumochift.org/categories/personal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Am I Lost?</title>
+      <link>https://lumochift.org/posts/am-i-lost/</link>
+      <pubDate>Mon, 24 Nov 2014 20:02:21 +0700</pubDate>
+      
+      <guid>https://lumochift.org/posts/am-i-lost/</guid>
+      <description>I&amp;rsquo;m proud to be software engineer, programmer, code saint, or whatever you call it 😄. Do you know before I choose Computer Science degree I don&amp;rsquo;t know what the hell Computer Science is. Here the short history about path of my adventure of code. :p
+Junior High School Arch In this era I don&amp;rsquo;t know what I&amp;rsquo;m doing and I hate enter Junior High School 1 Malang because I wanted to enter another school.</description>
+    </item>
+    
+  </channel>
+</rss>
