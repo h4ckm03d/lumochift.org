@@ -6,11 +6,7 @@
             "src": "build.sh",
             "use": "@now/static-build",
             "config": { "distDir": "public" }
-        },
-      { "src": "_internal/go/index.go", "use": "@now/go" }
-    ],
-    "routes": [
-        { "src": "/go/(?<name>[^/]+)", "dest": "/_internal/go/index.go?name=$name" }
+        }
     ],
     "public": true
-  }
+}

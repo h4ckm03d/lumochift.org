@@ -49,9 +49,9 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 		Repo         string
 		GodocURL     string
 	}{
-		CanonicalURL: "lumochift.org/go/" + name,
+		CanonicalURL: "go.lumochift.org/" + name,
 		Repo:         "github.com/h4ckm03d/" + name,
-		GodocURL:     "https://godoc.org/lumochift.org/go/" + name,
+		GodocURL:     "https://godoc.org/go.lumochift.org/" + name,
 	}
 
 	_ = tpl.Execute(w, data)

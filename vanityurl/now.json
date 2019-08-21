@@ -1,0 +1,11 @@
+{
+    "version": 2,
+    "alias": ["go.lumochift.org"],
+    "builds": [
+      { "src": "index.go", "use": "@now/go" }
+    ],
+    "routes": [
+        { "src": "/(?<name>[^/]+)", "dest": "/index.go?name=$name" }
+    ],
+    "public": true
+  }

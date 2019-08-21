@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "alias": ["www.lumochift.org"],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "status": 301,
+        "headers": { "Location": "https://lumochift.org/$1" }
+      }
+    ]
+  }
+  
