@@ -1,5 +1,5 @@
 ---
 hero:
-  heading: Welcome to the Moch Lutfi tech blog
+  heading: 🇮🇩 Software engineer notes
   maxWidthPX: 652
 ---
