@@ -4,7 +4,7 @@ date: 2018-02-01T21:54:00+07:00
 description : "Tips dan trik menggunakan unit test di GO"
 hero: /images/hero-2.jpg
 authors:
-  - Moch. Lutfi
+  - Moch Lutfi
 categories : ["Golang101"]
 tags : ["programming", "golang", "golang101", "unit test", "Bahasa Indonesia", "tips"]
 draft: false

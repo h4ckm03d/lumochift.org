@@ -5,7 +5,7 @@ type : "post"
 description : "Pointer explanation in golang"
 hero: /images/hero-2.jpg
 authors:
-  - Moch. Lutfi
+  - Moch Lutfi
 categories : ["Golang101"]
 tags : ["programming", "golang", "golang101"]
 draft: false

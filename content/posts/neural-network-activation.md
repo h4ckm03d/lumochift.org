@@ -5,7 +5,7 @@ type : "post"
 description : "Neural Network Activation"
 hero: /images/hero-2.jpg
 authors:
-  - Moch. Lutfi
+  - Moch Lutfi
 categories : ["Neural Network"]
 tags : ["neural network", "math", "machine learning", "bahasa indonesia"]
 draft: true

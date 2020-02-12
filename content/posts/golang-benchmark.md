@@ -5,7 +5,7 @@ excerpt : "Bagaimana melihat performa kode menggunakan benchmark?"
 hero: /images/hero-2.jpg
 type : "post"
 authors:
-  - Moch. Lutfi
+  - Moch Lutfi
 categories : ["Golang101"]
 tags : ["programming", "golang", "golang101", "benchmark", "Bahasa Indonesia"]
 ---

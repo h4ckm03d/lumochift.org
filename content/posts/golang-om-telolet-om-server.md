@@ -5,7 +5,7 @@ type : "post"
 description : "Menambahkan header x-telolet menggunakan golang"
 hero: /images/hero-2.jpg
 authors:
-  - Moch. Lutfi
+  - Moch Lutfi
 categories : ["Golang101"]
 tags : ["programming", "golang", "golang101"]
 draft: false

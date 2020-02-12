@@ -1,7 +1,7 @@
 ---
 title: Moch Lutfi
 bio: |
-  Gopher who live in Malang. Software Engineer @bukalapak
+  Gopher, remote worker, and Pokémon trainer. I love to writing codes using golang. If you have any question or suggestion, reach me on twitter @kaptenupi.
 avatar: /images/profile-01.jpeg
 featured: true
 social:

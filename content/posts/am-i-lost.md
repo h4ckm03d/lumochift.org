@@ -3,7 +3,7 @@ date : 2014-11-24T20:02:21+07:00
 hero: /images/hero-2.jpg
 hero: /images/hero-2.jpg
 authors:
-  - Moch. Lutfi
+  - Moch Lutfi
 categories : ["personal"]
 tags : ["computer science", "story", "my life"]
 title : "Am I Lost?"

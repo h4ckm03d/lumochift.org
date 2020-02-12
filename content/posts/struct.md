@@ -5,7 +5,7 @@ type : "post"
 description : "Konsep struct dalam go dan bagaimana digunakan dalam pemrograman berorientasi object"
 hero: /images/hero-2.jpg
 authors:
-  - Moch. Lutfi
+  - Moch Lutfi
 categories : ["Golang101"]
 tags : ["programming", "golang", "golang101", "struct", "Bahasa Indonesia"]
 draft: false

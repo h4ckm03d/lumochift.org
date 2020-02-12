@@ -1,6 +1,6 @@
 baseURL: "https://lumochift.org"
 languageCode: "en-us"
-title: "Moch. Lutfi Tech blog"
+title: "Moch Lutfi Tech blog"
 pygmentsstyle: 'monokai'
 paginate: 6
 theme: novela

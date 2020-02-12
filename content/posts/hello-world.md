@@ -7,7 +7,7 @@ tags: ["preview", "Syntax Highlighting"]
 categories: ["programming"]
 type : "post"
 authors:
-  - Moch. Lutfi
+  - Moch Lutfi
 
 # you can close something for this content if you open it in config.toml.
 comment: true
