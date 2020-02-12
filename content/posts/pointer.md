@@ -3,7 +3,9 @@ title: "Pointer"
 date: 2017-11-05T15:36:49+07:00
 type : "post"
 description : "Pointer explanation in golang"
-author : "Moch. Lutfi"
+hero: /images/hero-2.jpg
+authors:
+  - Moch. Lutfi
 categories : ["Golang101"]
 tags : ["programming", "golang", "golang101"]
 draft: false
@@ -62,6 +64,5 @@ func main() {
 
 `music := Music{"November Rain", 20, "Gun n Roses"}` code represent our 1GB variable and `p` contains the reference with value `0x10444240` (represented by an ampersand). We can use asterisk `*` to take value from referenced by the pointer. With those example we have origical size of music data is 20 bytes and pointer only 4 bytes. Pointer size have same size with int variable in Go. Even if I increase the size of struct/variable the pointer remain same size.
 
-I hope you can understand. See ya on the next [Golang 101] post...
+I hope you can understand. See ya on the next tulisan post...
 [Example]: https://play.golang.org/p/FqVdZ6ntLN
-[Golang 101]: /categories/golang101/

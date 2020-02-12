@@ -2,11 +2,12 @@
 title: "Golang Unit Test"
 date: 2018-01-02T08:00:00+07:00
 description : "Bagaimana menggunakan Unit Test pada bahasa pemrograman go?"
-author : "Moch. Lutfi"
+hero: /images/hero-2.jpg
+authors:
+  - Moch. Lutfi
 categories : ["Golang101"]
 tags : ["programming", "golang", "golang101", "unit test", "Bahasa Indonesia"]
-draft: false
-toc : false
+type : "post"
 ---
 
 *Unit test* merupakan salah satu cara untuk validasi sebuah unit terkecil dalam suatu aplikasi, misalnya *global variable*, fungsi, fungsi dalam suatu *class* (dalam *context* golang fungsi dalam `struct`). Adanya *unit test* ini juga mempermudah pengujian suatu aplikasi/*library* yang secara terus menerus/diperlukan repetisi pengujian sehingga tidak perlu membuat aplikasi yang lain untuk menggunakan *library* kemudian dicek satu-persatu secara manual output program sudah sesuai atau belum.
@@ -131,6 +132,5 @@ func TestKotakPakeAssert(t *testing.T) {
 
 Untuk menjalankan unit test bisa menggunakan perintah `go test` di *command line*, kalau misalkan perlu verbose bisa ditambahkan flag `-v` seperti ini `$ go test -v`.
 
-Cukup mudah bukan penggunaan unit test di Golang? Selanjutnya mungkin akan membahas *test coverage* dan *benchmark* menggunakan golang. Sampai jumpa lagi di [Golang 101] selanjutnya.
+Cukup mudah bukan penggunaan unit test di Golang? Selanjutnya mungkin akan membahas *test coverage* dan *benchmark* menggunakan golang. Sampai jumpa lagi di tulisan selanjutnya.
 
-[Golang 101]: /categories/golang101/

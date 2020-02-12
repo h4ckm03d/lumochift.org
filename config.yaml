@@ -1,0 +1,14 @@
+baseURL: "https://lumochift.org"
+languageCode: "en-us"
+title: "Moch. Lutfi Tech blog"
+pygmentsstyle: 'monokai'
+paginate: 6
+theme: novela
+social:
+  twitter: "twitter.com/kaptenupi"
+  github: "github.com/h4ckm03d"
+  instagram: "instagram.com/kaptenupi"
+taxonomies:
+  author: authors
+disqusShortname : "codeflowinyou"
+googleAnalytics : "UA-45950719-1"

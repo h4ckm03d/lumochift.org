@@ -3,7 +3,9 @@ title: "Struct"
 date: 2017-12-17T17:39:49+07:00
 type : "post"
 description : "Konsep struct dalam go dan bagaimana digunakan dalam pemrograman berorientasi object"
-author : "Moch. Lutfi"
+hero: /images/hero-2.jpg
+authors:
+  - Moch. Lutfi
 categories : ["Golang101"]
 tags : ["programming", "golang", "golang101", "struct", "Bahasa Indonesia"]
 draft: false
@@ -138,7 +140,7 @@ func main() {
 
 Jika penasaran hasilnya, anda bisa mencoba sendiri [contoh] di play.golang.org. Dari contoh diatas bahwa fungsi yang menggunakan [pointer] akan berpengaruh ke `struct` asal sedangkan fungsi `UbahS2` tidak berpengaruh pada nilai `S` karena jika tanpa menggunakan [pointer] maka akses peubah `p` merupakan `copy struct` bukan sebagai reference dari `struct`.
 
-Sampai jumpa di tulisan [Golang 101] selanjutnya...
-[Golang 101]: /categories/golang101/
+Sampai jumpa di tulisan selanjutnya...
+
 [pointer]: /posts/pointer/
 [contoh]: https://play.golang.org/p/0UKYzn6R_A

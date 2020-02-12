@@ -1,12 +1,13 @@
 ---
 title: "Membuat Benchmark di Golang"
 date: 2018-09-02T08:00:00+07:00
-description : "Bagaimana melihat performa kode menggunakan benchmark?"
-author : "Moch. Lutfi"
+excerpt : "Bagaimana melihat performa kode menggunakan benchmark?"
+hero: /images/hero-2.jpg
+type : "post"
+authors:
+  - Moch. Lutfi
 categories : ["Golang101"]
 tags : ["programming", "golang", "golang101", "benchmark", "Bahasa Indonesia"]
-draft: false
-toc : false
 ---
 
 Ketika membuat suatu aplikasi tidak dipungkiri salah satu faktor yang sangat penting yaitu kecepatan. Baik kecepatan load data, kecepatan dalam menjalankan suatu perintah ataupun ketika membuka dan menutup aplikasi. Tentunya perlu instrument untuk mengetahui seberapa cepat kode kita, dalam hal ini perasaan tidak dapat digunakan sebagai tolak ukur. Menariknya pada bahasa pemrograman golang sudah ada *library* standar untuk mengukur seberapa cepat perintah dalam kode yang sering disebut *benchmarking*.
@@ -112,9 +113,9 @@ Pada hasil perintah `go test -bench=.` diatas menghasilkan 3 kolom:
 
 Jadi `BubbleSort` perlu `4181 ns/op` dan `ShellSort` memerlukan `433 ns/op`. Sudah jelas kalau pemenangnya adalah `ShellShort`. Mudah bukan? 
 
-Sampai jumpa lagi di [Golang 101] selanjutnya.
+Sampai jumpa lagi di tulisan selanjutnya.
 
 Code lengkapnya ada di `https://github.com/h4ckm03d/blog-codes/benchmark`
 
-[Golang 101]: /categories/golang101/
+
 [Unit Test]: /posts/golang-unit-test/

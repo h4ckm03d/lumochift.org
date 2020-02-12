@@ -5,6 +5,9 @@ lastmod: 2017-08-30T16:01:23+08:00
 draft: false
 tags: ["preview", "Syntax Highlighting"]
 categories: ["programming"]
+type : "post"
+authors:
+  - Moch. Lutfi
 
 # you can close something for this content if you open it in config.toml.
 comment: true

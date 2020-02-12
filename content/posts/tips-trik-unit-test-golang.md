@@ -2,11 +2,14 @@
 title: "Tips dan trik unit test di Go"
 date: 2018-02-01T21:54:00+07:00
 description : "Tips dan trik menggunakan unit test di GO"
-author : "Moch. Lutfi"
+hero: /images/hero-2.jpg
+authors:
+  - Moch. Lutfi
 categories : ["Golang101"]
 tags : ["programming", "golang", "golang101", "unit test", "Bahasa Indonesia", "tips"]
 draft: false
 toc : true
+type : "post"
 ---
 [Unit Test] memang tidak bisa dilepaskan dari proses pengembangan *software*. Namun seringkali dalam pembuatan [Unit Test] di Go terjadi banyak repetisi yang tidak perlu dan [Unit Test] yang tidak dikelola dengan baik. Salah satu contoh kasus yang paling banyak ditemui dalam pembuatan [Unit Test] yaitu tidak dipisahkannya *logic* dan data sehingga ketika penambahan data test terdapat penambahan pula *logic*.
 
@@ -189,7 +192,7 @@ FAIL    github.com/h4ckm03d/blog-codes/golang101/6-tips-trik-unit-test  0.004s
 
 Ketika `TestBasicFatal` dijalankan maka ketika ada error proses berhenti berbeda dengan `TestBasicError`, meskipun ada error proses dilanjutkan sampai selesai. 
 
-Dengan pemisahan kode [Unit Test] dan penggunaan error/fatal yang tepat kita bisa lebih optimal memanfaatkan unit test. Semoga bermanfaat dan sampai jumpa lagi di [Golang 101] selanjutnya.
+Dengan pemisahan kode [Unit Test] dan penggunaan error/fatal yang tepat kita bisa lebih optimal memanfaatkan unit test. Semoga bermanfaat dan sampai jumpa lagi di tulisan selanjutnya.
 
-[Golang 101]: /categories/golang101/
+
 [Unit Test]: /posts/golang-unit-test/

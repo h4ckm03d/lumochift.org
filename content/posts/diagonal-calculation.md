@@ -1,6 +1,8 @@
 ---
 date : "2017-11-24"
-author : "Moch. Lutfi"
+hero: /images/hero-2.jpg
+authors:
+  - Moch. Lutfi
 categories : ["coding practice"]
 keywords : ["golang","practice"]
 title : "Diagonal Calculation"

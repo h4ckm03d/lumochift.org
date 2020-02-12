@@ -3,7 +3,9 @@ title: "Golang Om Telolet Om Server"
 date: 2018-01-03T08:49:20+07:00
 type : "post"
 description : "Menambahkan header x-telolet menggunakan golang"
-author : "Moch. Lutfi"
+hero: /images/hero-2.jpg
+authors:
+  - Moch. Lutfi
 categories : ["Golang101"]
 tags : ["programming", "golang", "golang101"]
 draft: false
@@ -125,6 +127,5 @@ Content-Length: 12
 Content-Type: text/plain; charset=utf-8
 ```
 
-Sangat mudah ternyata menambahkan custom header menggunakan golang. Sampai jumpa lagi di [Golang 101] selanjutnya.
+Sangat mudah ternyata menambahkan custom header menggunakan golang. Sampai jumpa lagi di tulisan selanjutnya.
 
-[Golang 101]: /categories/golang101/

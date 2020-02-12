@@ -1,6 +1,8 @@
 ---
 date : 2014-11-25T20:02:21+07:00
-author : "Moch. Lutfi"
+hero: /images/hero-2.jpg
+authors:
+  - Moch. Lutfi
 categories : ["computer science"]
 tags : ["computer science", "humanities"]
 title : "Computer Science for Humanities"

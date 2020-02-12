@@ -1,5 +1,7 @@
 ---
-author : "Moch. Lutfi"
+hero: /images/hero-2.jpg
+authors:
+  - Moch. Lutfi
 categories : ["computer science"]
 tags : ["computer science", "story", "async","concept"]
 date : 2013-10-12T20:02:21+07:00
