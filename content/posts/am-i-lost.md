@@ -7,7 +7,7 @@ authors:
 categories : ["personal"]
 tags : ["computer science", "story", "my life"]
 title : "Am I Lost?"
-description : "The story behind my adventure of code"
+excerpt : "The story behind my adventure of code"
 featuredalt : ""
 featuredpath : "date"
 linktitle : ""

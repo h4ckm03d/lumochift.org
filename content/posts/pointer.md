@@ -2,7 +2,7 @@
 title: "Pointer"
 date: 2017-11-05T15:36:49+07:00
 type : "post"
-description : "Pointer explanation in golang"
+excerpt : "Pointer explanation in golang"
 hero: /images/hero-2.jpg
 authors:
   - Moch Lutfi

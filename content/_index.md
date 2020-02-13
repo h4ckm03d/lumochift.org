@@ -1,5 +1,5 @@
 ---
 hero:
-  heading: 🇮🇩 Software engineer notes
+  heading: 🇮🇩 Iso jalaran soko kulino
   maxWidthPX: 652
 ---

@@ -2,7 +2,7 @@
 title: "Neural Network Activation"
 date: 2018-01-10T13:39:14+07:00
 type : "post"
-description : "Neural Network Activation"
+excerpt : "Neural Network Activation"
 hero: /images/hero-2.jpg
 authors:
   - Moch Lutfi

@@ -1,7 +1,7 @@
 ---
 title: "Tips dan trik unit test di Go"
 date: 2018-02-01T21:54:00+07:00
-description : "Tips dan trik menggunakan unit test di GO"
+excerpt : "Tips dan trik menggunakan unit test di GO"
 hero: /images/hero-2.jpg
 authors:
   - Moch Lutfi

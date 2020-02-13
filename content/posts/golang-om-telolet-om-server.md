@@ -2,7 +2,7 @@
 title: "Golang Om Telolet Om Server"
 date: 2018-01-03T08:49:20+07:00
 type : "post"
-description : "Menambahkan header x-telolet menggunakan golang"
+excerpt : "Menambahkan header x-telolet menggunakan golang"
 hero: /images/hero-2.jpg
 authors:
   - Moch Lutfi

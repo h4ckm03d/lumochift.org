@@ -1,7 +1,7 @@
 ---
 date : "2015-07-30"
 title : "License"
-description : "License for the contents of this website and blog"
+excerpt : "License for the contents of this website and blog"
 keywords : ["license", "blog", "code"]
 comment: false
 ---

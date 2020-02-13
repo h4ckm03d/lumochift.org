@@ -2,7 +2,7 @@
 title: "Golang Test Coverage"
 date: 2018-01-03T20:10:36+07:00
 type : "post"
-description : "Golang Test Coverage"
+excerpt : "Golang Test Coverage"
 hero: /images/hero-2.jpg
 authors:
   - Moch Lutfi

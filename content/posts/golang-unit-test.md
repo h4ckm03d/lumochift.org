@@ -1,7 +1,7 @@
 ---
 title: "Golang Unit Test"
 date: 2018-01-02T08:00:00+07:00
-description : "Bagaimana menggunakan Unit Test pada bahasa pemrograman go?"
+excerpt : "Bagaimana menggunakan Unit Test pada bahasa pemrograman go?"
 hero: /images/hero-2.jpg
 authors:
   - Moch Lutfi

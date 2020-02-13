@@ -2,7 +2,7 @@
 title: "Struct"
 date: 2017-12-17T17:39:49+07:00
 type : "post"
-description : "Konsep struct dalam go dan bagaimana digunakan dalam pemrograman berorientasi object"
+excerpt : "Konsep struct dalam go dan bagaimana digunakan dalam pemrograman berorientasi object"
 hero: /images/hero-2.jpg
 authors:
   - Moch Lutfi

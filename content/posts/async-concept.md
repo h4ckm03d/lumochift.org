@@ -5,7 +5,7 @@ authors:
 categories : ["computer science"]
 tags : ["computer science", "story", "async","concept"]
 date : 2013-10-12T20:02:21+07:00
-description : "Antara aku, async, dan sync"
+excerpt : "Antara aku, async, dan sync"
 featuredalt : ""
 featuredpath : "date"
 linktitle : ""

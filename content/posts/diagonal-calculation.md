@@ -6,7 +6,7 @@ authors:
 categories : ["coding practice"]
 keywords : ["golang","practice"]
 title : "Diagonal Calculation"
-description : "How to calculate determinant"
+excerpt : "How to calculate determinant"
 featuredalt : ""
 featuredpath : "date"
 linktitle : ""

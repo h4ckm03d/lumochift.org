@@ -6,7 +6,7 @@ authors:
 categories : ["computer science"]
 tags : ["computer science", "humanities"]
 title : "Computer Science for Humanities"
-description : "Computer science is no more about computers than astronomy is about telescopes, biology about microscopes, or chemistry about beakers and test tubes. Science is not about tools. It is about how we use them, and what we find out when we do"
+excerpt : "Computer science is no more about computers than astronomy is about telescopes, biology about microscopes, or chemistry about beakers and test tubes. Science is not about tools. It is about how we use them, and what we find out when we do"
 featuredalt : ""
 featuredpath : "date"
 linktitle : ""
