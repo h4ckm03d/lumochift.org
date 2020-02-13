@@ -115,7 +115,7 @@ Jadi `BubbleSort` perlu `4181 ns/op` dan `ShellSort` memerlukan `433 ns/op`. Sud
 
 Sampai jumpa lagi di tulisan selanjutnya.
 
-Code lengkapnya ada di `https://github.com/h4ckm03d/blog-codes/benchmark`
+Code lengkapnya ada di [github](https://github.com/h4ckm03d/blog-codes/tree/master/golang101/benchmark)
 
 
 [Unit Test]: /posts/golang-unit-test/
