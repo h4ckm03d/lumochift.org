@@ -12,21 +12,21 @@ draft: false
 toc : false
 ---
 
-Pointers gave me some nostalgic moment when learning C++ on first semester. They become source of headache on my day. Pointers are one of main tools to achieve high performance code in non-garbage-collected languages. So what about pointers in Go? Luckily Go's pointer have achieved the best of both worlds by providing high-performance pointers with garbage-collector capabilities and easiness.
+Pointers gave me some nostalgic moment when learning C++ on first semester. They become a source of headaches on my day. Pointers are one of the main tools to achieve high-performance code in non-garbage-collected languages. So what about pointers in Go? Luckily Go’s pointer has achieved the best of both worlds by providing high-performance pointers with garbage-collector capabilities and easiness.
 
 # Pointers in real world
 
-Unconsiously we are already knew main concept of pointers in real world. Nowadays online markets are popular, we'd like to shopping using smartphone or computer. After checkout if you want to receive package in your house, it's far easier to simply send the address of your house(pointer) instead of sending the entire house to the seller so that your package is deposited inside. The problem is, if you send wrong address of yours. You will not get the package.
+Unconsciously we already know the main concept of pointers in the real world. Nowadays online markets are popular, we’d like to shopping using a smartphone or computers. After checkout, if you want to receive the package in your house, it’s far easier to simply send the address of your house(pointer) instead of sending the entire house to the seller so that your package is deposited inside. The problem is if you send the wrong address of yours. You will not get the package.
 
-Let's back to programming world. For example I have simple program to convert mp3 files to other format. The first step I must read the mp3 files and save to the variable, let's say the variable size is 1GB and I need pass it to another function. Without a pointer, the entire variable is cloned to the scope of the function that is going to use it. So I will have 2GB of memory occupied by using this variable twice. If the second function will pass again to another function, the memory occupied will raised.
+Let’s back to the programming world. For example, I have a simple program to convert mp3 files to another format. In the first step, I must read the mp3 files and save to the variable, let’s say the variable size is 1GB and I need to pass it to another function. Without a pointer, the entire variable is cloned to the scope of the function that is going to use it. So I will have 2GB of memory occupied by using this variable twice. If the second function will pass again to another function, the memory occupied will raise.
 
-If I use a pointer to pass a very small reference to the another function so that just the small reference is cloned and I can keep memory usage low.
+If I use a pointer to pass a very small reference to another function so that just the small reference is cloned and I can keep memory usage low.
 
-Different with C or C++ pointers, in GO very limited. We can't use pointer arithmetic nor can create a pointer to reference an exact posision in the stack.
+Different from C or C++ pointers, in GO very limited. We can’t use pointer arithmetic nor can we create a pointer to reference an exact position in the stack.
 
 Here the basic of [Example] of pointers:
 
-```go
+```
 package main
 
 import (
@@ -36,8 +36,8 @@ import (
 
 type Music struct {
 	SongName string
-	TrackNo  int
-	Singer   string
+	TrackNo int
+	Singer string
 }
 
 func main() {
@@ -60,9 +60,11 @@ func main() {
 // Get music from pointer {November Rain 20 Gun n Roses}
 // Original size: main.Music, 20
 // Pointer size: *main.Music, 4
+
 ```
 
-`music := Music{"November Rain", 20, "Gun n Roses"}` code represent our 1GB variable and `p` contains the reference with value `0x10444240` (represented by an ampersand). We can use asterisk `*` to take value from referenced by the pointer. With those example we have origical size of music data is 20 bytes and pointer only 4 bytes. Pointer size have same size with int variable in Go. Even if I increase the size of struct/variable the pointer remain same size.
+`music := Music{"November Rain", 20, "Gun n Roses"}` code represent our 1GB variable and `p` contains the reference with value `0x10444240` (represented by an ampersand). We can use asterisk `*` to take value from referenced by the pointer. With that example we have an original size of music data is 20 bytes and pointer only 4 bytes. Pointer size has the same size as int variable in Go. Even if I increase the size of the struct/variable the pointer remains the same size.
 
-I hope you can understand. See ya on the next tulisan post...
-[Example]: https://play.golang.org/p/FqVdZ6ntLN
+I hope you can understand. See ya on the next post…
+
+[Example]: [https://play.golang.org/p/FqVdZ6ntLN](https://play.golang.org/p/FqVdZ6ntLN)
