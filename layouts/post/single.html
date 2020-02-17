@@ -9,8 +9,10 @@
     <article  id="articleContent" class="post-content" style="position:relative;">
         {{ .Content }}
     </article>
-
-
+    
+    {{ if or .Page.Params.comment .Site.Params.comment }}
+    {{ template "_internal/disqus.html" . }}
+    {{ end }}
     {{ partial "article/next.html" . }}
     
 </section>

@@ -11,4 +11,5 @@ social:
 taxonomies:
   author: authors
 disqusShortname : "codeflowinyou"
+comment: true
 googleAnalytics : "UA-45950719-1"
