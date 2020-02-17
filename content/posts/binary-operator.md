@@ -9,20 +9,25 @@ authors :
     - Moch Lutfi
 title : "Binary Operator Hack and Tricks"
 draft: true
-toc : true
 ---
 
-Binary operator is a way to manipulate binary data. We already know there are `&`, `|`, `^`, `<<` and `>>` operators, but not all of us know the secret of each operators. Let's explore what tricks behind those operator.
+Binary operator is a way to manipulate binary data. We already know there are `&`, `|`, `^`, `<<` and `>>` operators, but not all of us know the secret of each operators. Let's explore what tricks behind those operator using go language.
 
 ## Multiply or Divide By 2
 
-divide by 2 : shift right 1 >> 1 
-multiply by two: with shift left 1 << 1
+We already know how multiply 2 using `* 2` or divide using `/ 2`, but how we can achieve same with binary operator? 
+
+|          |       |             |
+|----------|-------|------------|
+| divide by 2 | shift right by 1|`someNumber >> 1` |
+| multiply by 2 | shift left by 1 | `someNumber << 1` |
 
 ## Change case of character
 
-	"c to uppercase ": {'c' & '_', 'C'},
-		"A to lowercase ": {'A' | ' ', 'a'},
+|          |       |             |
+|----------|-------|-------------|
+| change to uppercase | use `&` with `underscore` |`'c' & '_'` |
+| change to lowercase | use `|` with `space`  |`'A' | ' '` |
 
 ## Invert case of character
 
