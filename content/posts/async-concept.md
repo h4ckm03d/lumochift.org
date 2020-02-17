@@ -9,6 +9,7 @@ excerpt : "Antara aku, async, dan sync"
 featuredalt : ""
 featuredpath : "date"
 linktitle : ""
+type : "post"
 title : "Konsep synchronous dan asynchronous"
 ---
 Dalam postingan pertama ini saya akan sedikit mengulas tentang konsep asynchronous dalam analogi sederhana sehingga bisa memudahkan pembaca dalam memahaminya.

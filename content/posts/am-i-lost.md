@@ -11,7 +11,7 @@ excerpt : "The story behind my adventure of code"
 featuredalt : ""
 featuredpath : "date"
 linktitle : ""
-type : post
+type : "post"
 toc : true
 ---
 
