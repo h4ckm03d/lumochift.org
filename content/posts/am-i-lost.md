@@ -11,7 +11,6 @@ date = 2014-11-24T20:02:21+07:00
 categories = [
     "Personal",
 ]
-menu = "main"
 +++
 
 I'm proud to be software engineer, programmer, code saint, or whatever you call it :smile:. Do you know before I choose Computer Science degree I don't know what the hell Computer Science is. Here the short history about path of my adventure of code. :p
