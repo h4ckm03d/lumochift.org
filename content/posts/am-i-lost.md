@@ -1,19 +1,18 @@
----
-date : 2014-11-24T20:02:21+07:00
-hero: /images/hero-2.jpg
-hero: /images/hero-2.jpg
-authors:
-  - Moch Lutfi
-categories : ["personal"]
-tags : ["computer science", "story", "my life"]
-title : "Am I Lost?"
-excerpt : "The story behind my adventure of code"
-featuredalt : ""
-featuredpath : "date"
-linktitle : ""
-type : "post"
-toc : true
----
++++
+title = "Am I Lost?"
+description = "The story behind my adventure of code"
+tags = [
+    "go",
+    "golang",
+    "hugo",
+    "development",
+]
+date = 2014-11-24T20:02:21+07:00
+categories = [
+    "Personal",
+]
+menu = "main"
++++
 
 I'm proud to be software engineer, programmer, code saint, or whatever you call it :smile:. Do you know before I choose Computer Science degree I don't know what the hell Computer Science is. Here the short history about path of my adventure of code. :p
 
