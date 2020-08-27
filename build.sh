@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-tree themes
+ls themes
 
 curl -L -O https://github.com/gohugoio/hugo/releases/download/v0.74.3/hugo_extended_0.74.3_Linux-64bit.tar.gz
 tar -xzf hugo_extended_0.74.3_Linux-64bit.tar.gz
