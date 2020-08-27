@@ -3,7 +3,7 @@ languageCode: "en-us"
 title: "Moch Lutfi Tech blog"
 pygmentsstyle: 'monokai'
 paginate: 6
-theme: novela
+theme: book
 social:
   twitter: "https://twitter.com/kaptenupi"
   github: "https://github.com/h4ckm03d"
