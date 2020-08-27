@@ -29,9 +29,9 @@ We already know how multiply 2 using `* 2` or divide using `/ 2`, but how we can
 | change to uppercase | use `&` with `underscore` |`'c' & '_'` |
 | change to lowercase | use `|` with `space`  |`'A' | ' '` |
 
-## Invert case of character
+<!-- ## Invert case of character
 
 ## Get letter position
 
-## Check number odd or even
+## Check number odd or even -->
 
