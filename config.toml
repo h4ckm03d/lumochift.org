@@ -485,7 +485,7 @@ uglyURLs = false
     # Atom & RSS
 
     # Include full content?
-    includeContent = true
+    includeContent = false
     # Note: If false, only the summary of
     #       the post will be included. The
     #       summary, Hugo automatically
@@ -591,7 +591,7 @@ uglyURLs = false
     # Note: render only in production
     #       environment
 
-    enableServiceWorker = false
+    enableServiceWorker = true
 
 
     ######################################
@@ -632,14 +632,14 @@ uglyURLs = false
     # Note: render only in production
     #       environment
 
-    enableComments = false
+    enableComments = true
     # Note: *global settings*
     #       `comments` in post’s Front Matter
     #       has a higher priority than here
 
     ## Disqus
-    enableDisqus = false
-    disqusShortname = ""
+    enableDisqus = true
+    disqusShortname = "codeflowinyou"
 
     ## Valine
     enableValine = false
